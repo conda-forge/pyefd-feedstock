@@ -1,13 +1,13 @@
 {% set name = "pyefd" %}
-{% set version = "1.6.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyefd-{{ version }}.tar.gz
-  sha256: 628f50f395d41c82db9625834674975584fa8f829fc60cfc127937dec8f22980
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyefd-{{ version }}.tar.gz
+  sha256: af44c926fa28611b45d25085c00eac51e3611504da0da3548c732275dd0e021f
   patches:
     - setup.patch
 
